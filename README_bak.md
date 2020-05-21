@@ -1,59 +1,5 @@
 # Albumy
 
-《[Flask Web 开发实战](http://helloflask.com/book)》 第8章个人博客
-
-Demo: http://Albumy.helloflask.com
-
-![Screenshot](http://helloflask.com/screenshots/Albumy.png)
-
-
-## 安装
-
-git clone源码
-```
-$ git clone https://github.com/greyli/Albumy.git
-$ cd Albumy
-```
-
-安装依赖
-```
-$ pip3 install -r requirements.txt
-```
-
-预先在DB生成假记录
-```
-$ flask forge
-
-```
-
-启动http服务
-
-```
-## Running on http://0.0.0.0:8080/
-$ flask run -h 0.0.0.0  -p 8080 
-```
-
-在本地尝试访问服务
-
-```
-$ curl http://localhost:8080
-```
-
-通过浏览器访问服务
-
-```
-http://IP:8080
-```
-
-
-
-
-
-
-
-
-# Albumy
-
 *Capture and share every wonderful moment.*
 
 > Example application for *[Python Web Development with Flask](http://helloflask.com/en/book)* (《[Flask Web 开发实战](http://helloflask.com/book)》).
